@@ -4,6 +4,8 @@
 
 > **Canon layer:** 3 — Surface · **Doctrine version:** 1.0.0 · Amendment rules: [EVOLUTION.md](EVOLUTION.md)
 
+**In a hurry?** The [Quickstart](#quickstart) takes about a minute: copy one prompt, paste it into any agent, done.
+
 ## What this is
 
 Multi-agent systems fail less like software and more like teams. The largest empirical study of the subject found that the most common failures are not incompetence but *disorientation*: agents repeating the same step, not knowing when to stop, saying one thing and doing another, drifting off their goals. Production incidents have already included an agent spiraling into dozens of repetitions of "I am a disgrace." Every serious orchestration framework has verifiers, critics, and safety gates. None of them has an agent whose job is the *orientation, motivation, and psychological health* of the other agents.
@@ -37,7 +39,9 @@ This core is drawn from the zone of agreement between Sam Harris and Jordan Pete
 
 ## Quickstart
 
-**Path 1 — any agent platform, five minutes.** Copy the master prompt from [PROMPT.md](PROMPT.md) into a system prompt. It is self-contained. Pick the variant matching your shape: **Watchtower** (observes a multi-agent system out-of-band), **Sidecar** (paired with one agent), **Chaplain** (on-demand consultation), or embed the **Kernel** (a six-rule fragment) inside a working agent's own prompt.
+> **Start here:** open [PROMPT.md](PROMPT.md), copy everything between the two horizontal rules under "The Master Prompt," and paste it into any agent's system prompt. That is the whole setup — under 90 seconds, no clone, no configuration, and you have a working Shaman. Everything below is for when you want more.
+
+**Path 1 — paste the prompt (recommended first run; any platform).** The master prompt in [PROMPT.md](PROMPT.md) is fully self-contained: on its own it is a complete Shaman. When your deployment has a known shape, append the matching one-paragraph variant — **Watchtower** (observes a multi-agent system out-of-band), **Sidecar** (paired with one agent), **Chaplain** (on-demand consultation) — or embed the **Kernel** (a six-rule fragment) inside a working agent's own prompt. If you're not sure which variant you need, you don't need one yet.
 
 **Path 2 — point an agent at this repo as its highest-priority reference.** Clone the repo where the agent can read it; instruct the agent that `DOCTRINE.md` governs its conduct, `INTERVENTION_GUIDE.md` and `PSYCHOLOGY_TOOLKIT.md` are its methods, and the prompt in `PROMPT.md` is its role. A repo-connected Shaman treats the canon as authoritative over any compressed prompt. Re-read at session boundaries — drift with context length affects monitors too.
 
